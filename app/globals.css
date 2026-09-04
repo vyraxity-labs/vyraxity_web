@@ -41,3 +41,47 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
+
+/* Base styles */
+body {
+  background-color: var(--vx-black);
+  color: var(--vx-white);
+  font-family: var(--font-geist-sans);
+}
+
+/* Typography scale utilities */
+@utility vx-h1 {
+  font-size: clamp(4rem, 8vw, 9rem);
+  line-height: 0.95;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+@utility vx-h2 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.0;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+@utility vx-body {
+  font-size: clamp(1.125rem, 1.25vw, 1.25rem);
+  line-height: 1.55;
+  font-weight: 400;
+  color: var(--vx-muted);
+}
+
+@utility vx-eyebrow {
+  font-family: var(--font-geist-mono);
+  font-size: 0.78125rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+/* Contextual light-theme body color */
+[data-theme="light"] .vx-body,
+.theme-light .vx-body {
+  color: var(--vx-ink-secondary);
+}
+
