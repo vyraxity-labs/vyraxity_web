@@ -9,7 +9,7 @@ A phased, step-by-step build plan for vyraxity.com, written to be handed to an A
 - Give Antigravity **one step at a time**, in order. Do not batch multiple steps into one prompt.
 - Each step lists exactly which files are created and which are edited — hold Antigravity to that scope. If it touches other files, that's a signal to review carefully before merging.
 - Each step has a **Test/Acceptance** checklist — use it as your manual QA pass before committing.
-- Suggested git flow per step: create a branch (e.g. `feat/3-2-hero-network-visual`), implement, review diff, test locally (`pnpm dev`), commit with a message referencing the step number (e.g. `feat(home): hero generative network visual (3.2)`), push, open PR, merge into `main`.
+- **Git workflow:** The user will manually manage git branching, checking out respective branches, and handling commits/pushes/merges before and after each step. Antigravity will focus strictly on the code changes and verification within each step.
 - Content blocks marked **Content** are copied verbatim from the Vyraxity Brand & Website Foundation doc — do not let Antigravity invent or paraphrase copy. Where a step says "add to `messages/en.json`," give Antigravity that exact JSON to insert.
 
 ---
@@ -20,7 +20,7 @@ A phased, step-by-step build plan for vyraxity.com, written to be handed to an A
 |---|---|
 | Framework | Next.js 16, App Router, TypeScript, Turbopack |
 | Styling | Tailwind CSS v4 (CSS-first config via `@theme`, no `tailwind.config.js` needed) |
-| Fonts | `geist` package (Geist Sans + Geist Mono), loaded via `next/font` |
+| Fonts | Geist Sans + Geist Mono loaded natively via `next/font/google` (no separate npm package needed) |
 | Motion | `motion` (the current package name for what was Framer Motion) |
 | Generative visuals | Native HTML5 Canvas (no 3D library needed for the particle/network hero — kept lightweight) |
 | i18n | `next-intl`, locale-prefixed routing (`/en`, `/fr`, …) |
@@ -48,7 +48,7 @@ This mirrors a standard modern Next.js setup; adjust any individual package belo
 
 ### Step 0.1 — Initialize the Next.js project
 
-**Goal:** Scaffold a clean Next.js 16 + TypeScript + Tailwind v4 project.
+**Goal:** Scaffold a clean Next.js 16 + TypeScript + Tailwind v4 project directly into the repository root (`vyraxity_web/`).
 
 **New files:** entire default `create-next-app` output (`app/`, `public/`, `package.json`, `tsconfig.json`, `next.config.ts`, `.eslintrc`/`eslint.config.mjs`, `postcss.config.mjs`, `.gitignore`).
 
@@ -56,8 +56,9 @@ This mirrors a standard modern Next.js setup; adjust any individual package belo
 
 **Command:**
 ```
-pnpm create next-app@latest vyraxity --typescript --tailwind --eslint --app --turbopack --src-dir=false --import-alias "@/*"
+pnpm create next-app@latest . --typescript --tailwind --eslint --app --turbopack --src-dir=false --import-alias "@/*"
 ```
+*(Note: Run directly inside the `vyraxity_web` repository root so no nested folder is created).*
 
 **New packages:** `next`, `react`, `react-dom`, `typescript`, `tailwindcss`, `eslint` (all installed by the scaffold command — no manual install needed).
 
@@ -97,25 +98,33 @@ pnpm create next-app@latest vyraxity --typescript --tailwind --eslint --app --tu
 
 ---
 
-### Step 0.3 — Install and configure Geist fonts
+### Step 0.3 — Configure Geist fonts via `next/font/google`
 
-**Goal:** Load Geist Sans (display/body) and Geist Mono (technical/labels) per the Visual Direction doc's typography system.
+**Goal:** Load Geist Sans (display/body) and Geist Mono (technical/labels) per the Visual Direction doc's typography system using Next.js's built-in font loader (no separate npm package required).
 
 **New files:** none.
 
 **Edited files:**
-- `app/layout.tsx` — import `GeistSans` and `GeistMono` from the `geist` package, apply their CSS variable classes to `<html>` or `<body>`.
+- `app/layout.tsx` — import `Geist` and `Geist_Mono` from `next/font/google`, apply their CSS variable classes to `<html>` or `<body>`.
 
-**New packages:**
-- `geist` — provides pre-optimized Geist Sans and Geist Mono via `next/font`, matching the brand's typography spec ("Display: Geist Sans / equivalent grotesk, Body: Geist Sans, Mono: Geist Mono").
+**New packages:** none (built into Next.js).
 
 **New env vars:** none.
 
 **Implementation details:**
 ```ts
-import { GeistSans } from 'geist/font/sans';
-import { GeistMono } from 'geist/font/mono';
-// apply `${GeistSans.variable} ${GeistMono.variable}` to <html> className
+import { Geist, Geist_Mono } from 'next/font/google';
+
+const geistSans = Geist({
+  variable: '--font-geist-sans',
+  subsets: ['latin'],
+});
+
+const geistMono = Geist_Mono({
+  variable: '--font-geist-mono',
+  subsets: ['latin'],
+});
+// apply `${geistSans.variable} ${geistMono.variable}` to <html> className
 ```
 
 **Test/Acceptance:**
@@ -268,6 +277,7 @@ export const fadeUp = {
 
 **Edited files:**
 - `app/layout.tsx` → move to `app/[locale]/layout.tsx` (all pages built in later phases live under `app/[locale]/`), wrap with `NextIntlClientProvider`.
+- `app/page.tsx` → move to `app/[locale]/page.tsx`.
 - `next.config.ts` — wrap config with `createNextIntlPlugin()`.
 
 **New packages:**
@@ -1950,7 +1960,7 @@ The i18n infrastructure and message-key structure has been in place since Phase 
 | `next`, `react`, `react-dom` | 0.1 | Core framework |
 | `typescript` | 0.1 | Type safety |
 | `tailwindcss` | 0.1 | Utility-first styling, design token system |
-| `geist` | 0.3 | Geist Sans / Geist Mono fonts |
+| `next/font/google` (built-in) | 0.3 | Geist Sans / Geist Mono fonts (no extra package) |
 | `motion` | 0.6 | UI animation (hover, reveal, transitions) |
 | `next-intl` | 0.7 | Internationalization / locale routing |
 | `clsx` (+ optionally `tailwind-merge`) | 1.3 | Conditional className composition |
