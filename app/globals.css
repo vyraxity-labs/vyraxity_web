@@ -1,1 +1,43 @@
 @import "tailwindcss";
+
+:root {
+  /* Vyraxity core palette */
+  --vx-black: #080808;   /* Void — primary dark background */
+  --vx-ink: #111111;     /* Surface on dark */
+  --vx-white: #F4F3EE;   /* Paper — primary text on dark / light bg */
+  --vx-paper: #EAE9E2;   /* Warm off-white light-mode background */
+  --vx-muted: #A4A39D;   /* Secondary text on dark */
+  --vx-line: #292929;    /* Hairline borders on dark */
+  --vx-amber: #F2A93B;   /* The single brand accent */
+
+  /* Light-mode ink (used inside light sections) */
+  --vx-ink-text: #111111;
+  --vx-ink-secondary: #6E6E68;
+  --vx-ink-accent: #C77D25;
+
+  /* Radius scale — restrained, no pills */
+  --vx-radius-sm: 2px;
+  --vx-radius-md: 4px;
+  --vx-radius-lg: 8px;
+
+  /* Border */
+  --vx-border-width: 1px;
+}
+
+@theme inline {
+  --color-vx-black: var(--vx-black);
+  --color-vx-ink: var(--vx-ink);
+  --color-vx-white: var(--vx-white);
+  --color-vx-paper: var(--vx-paper);
+  --color-vx-muted: var(--vx-muted);
+  --color-vx-line: var(--vx-line);
+  --color-vx-amber: var(--vx-amber);
+  --color-vx-ink-text: var(--vx-ink-text);
+  --color-vx-ink-secondary: var(--vx-ink-secondary);
+  --color-vx-ink-accent: var(--vx-ink-accent);
+  --radius-vx-sm: var(--vx-radius-sm);
+  --radius-vx-md: var(--vx-radius-md);
+  --radius-vx-lg: var(--vx-radius-lg);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
