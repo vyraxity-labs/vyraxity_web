@@ -1,4 +1,3 @@
-﻿import React from 'react'
 import { useTranslations } from 'next-intl'
 import { Container } from '@/components/ui/Container'
 import { EyebrowLabel } from '@/components/ui/EyebrowLabel'
