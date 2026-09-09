@@ -40,6 +40,19 @@
       "secondaryCta": "Our vision",
       "supportingStatement": "Africa doesn't just have to adopt the future. We can build it.",
       "scrollHint": "SCROLL"
+    },
+    "belief": {
+      "eyebrow": "WHY WE EXIST",
+      "headline": "Africa should build more of the technology it depends on.",
+      "copy": [
+        "For decades, some of the world's most influential technologies have been conceived and built outside Africa.",
+        "We believe Africa can become more than a market for those technologies.",
+        "We can create them.",
+        "We can build companies around them.",
+        "We can own the intellectual property behind them.",
+        "And we can build products that people everywhere choose to use.",
+        "That is the opportunity Vyraxity exists to pursue."
+      ]
     }
   },
   "products": {},
