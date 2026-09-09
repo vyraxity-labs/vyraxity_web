@@ -10,7 +10,27 @@
     },
     "contact": "Contact"
   },
-  "footer": {},
+  "footer": {
+    "wordmark": "VYRAXITY",
+    "tagline": "Technology, built from Africa.\nBuilt for the world.",
+    "linksHeading": "",
+    "links": {
+      "products": "Products",
+      "labs": "Labs",
+      "vision": "Vision",
+      "about": "About",
+      "careers": "Careers",
+      "contact": "Contact"
+    },
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "x": "X",
+      "instagram": "Instagram"
+    },
+    "copyright": "© 2026 Vyraxity. All rights reserved.",
+    "signature": "Built in Nigeria."
+  },
   "home": {},
   "products": {},
   "airacter": {},
