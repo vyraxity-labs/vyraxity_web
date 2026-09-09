@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl'
 import { Container } from '@/components/ui/Container'
 import { EyebrowLabel } from '@/components/ui/EyebrowLabel'
 import { Button } from '@/components/ui/Button'
+import { GenerativeNetwork } from '@/components/visuals/GenerativeNetwork'
 
 export function Hero() {
   const t = useTranslations('home.hero')
@@ -38,16 +39,9 @@ export function Hero() {
             </p>
           </div>
 
-          {/* Right Column: Visual Placeholder Box (swapped for GenerativeNetwork in Step 3.2) */}
+          {/* Right Column: Generative Network Visual */}
           <div className='lg:col-span-5 w-full flex items-center justify-center'>
-            <div className='relative w-full aspect-square max-w-110 border border-vx-line/60 rounded-vx-md flex flex-col items-center justify-center p-6 bg-vx-ink/40 text-center'>
-              <span className='font-mono text-xs uppercase tracking-widest text-vx-muted/60 mb-2'>
-                Generative Network Visual
-              </span>
-              <span className='font-mono text-[10px] text-vx-muted/40'>
-                [ Step 3.2 Component Area ]
-              </span>
-            </div>
+            <GenerativeNetwork />
           </div>
         </div>
       </Container>
