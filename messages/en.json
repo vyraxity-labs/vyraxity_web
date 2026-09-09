@@ -1,5 +1,15 @@
 {
-  "nav": {},
+  "nav": {
+    "logo": "VYRAXITY",
+    "links": {
+      "products": "Products",
+      "labs": "Labs",
+      "vision": "Vision",
+      "about": "About",
+      "careers": "Careers"
+    },
+    "contact": "Contact"
+  },
   "footer": {},
   "home": {},
   "products": {},
