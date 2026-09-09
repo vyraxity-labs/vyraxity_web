@@ -31,7 +31,17 @@
     "copyright": "© 2026 Vyraxity. All rights reserved.",
     "signature": "Built in Nigeria."
   },
-  "home": {},
+  "home": {
+    "hero": {
+      "eyebrow": "VYRAXITY",
+      "headline": "Technology, built from Africa. Built for the world.",
+      "supportingCopy": "Vyraxity is a technology company building ambitious products and exploring the technologies that will shape tomorrow — starting in Nigeria, growing across Africa, and reaching the world.",
+      "primaryCta": "Explore our products",
+      "secondaryCta": "Our vision",
+      "supportingStatement": "Africa doesn't just have to adopt the future. We can build it.",
+      "scrollHint": "SCROLL"
+    }
+  },
   "products": {},
   "airacter": {},
   "labsPage": {},
