@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { useEffect, useState } from 'react'
 
@@ -40,24 +40,28 @@ export function useActiveSection(
           }
         })
 
-        // Pick the intersecting section that has the highest ratio or highest position
+        // Pick the intersecting section that has the highest ratio
         if (observerMap.size > 0) {
-          // Find first matching section in order of DOM appearance
-          for (const id of sectionIds) {
-            if (observerMap.has(id)) {
-              setActiveSection(id)
-              return
+          let bestId: string | null = null;
+          let maxRatio = -1;
+
+          for (const [id, ratio] of observerMap.entries()) {
+            if (ratio > maxRatio) {
+              maxRatio = ratio;
+              bestId = id;
             }
           }
+
+          setActiveSection(bestId);
         } else {
-          setActiveSection(null)
+          setActiveSection(null);
         }
       },
       {
         rootMargin,
-        threshold,
+        threshold: threshold || [0, 0.25, 0.5, 0.75, 1],
       },
-    )
+    );
 
     sectionIds.forEach((id) => {
       const el = document.getElementById(id)
