@@ -1,8 +1,8 @@
-﻿'use client'
+'use client'
 
 import { useEffect } from 'react'
 import { useTranslations } from 'next-intl'
-import { Link } from '@/i18n/navigation'
+import { Link, usePathname } from '@/i18n/navigation'
 import { motion, AnimatePresence } from 'motion/react'
 import { motionDurations, easeStandard, useReducedMotion } from '@/lib/motion'
 
@@ -27,11 +27,30 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
     }
   }, [isOpen])
 
+  const pathname = usePathname()
+  const isHomepage = pathname === '/' || pathname === ''
+
   const navLinks = [
-    { key: 'products', href: '/products', label: t('links.products') },
-    { key: 'labs', href: '/labs', label: t('links.labs') },
-    { key: 'vision', href: '/vision', label: t('links.vision') },
-    { key: 'about', href: '/about', label: t('links.about') },
+    {
+      key: 'products',
+      href: isHomepage ? '#products' : '/products',
+      label: t('links.products'),
+    },
+    {
+      key: 'labs',
+      href: isHomepage ? '#labs' : '/labs',
+      label: t('links.labs'),
+    },
+    {
+      key: 'vision',
+      href: isHomepage ? '#vision' : '/vision',
+      label: t('links.vision'),
+    },
+    {
+      key: 'about',
+      href: isHomepage ? '#about' : '/about',
+      label: t('links.about'),
+    },
     { key: 'careers', href: '/careers', label: t('links.careers') },
   ]
 

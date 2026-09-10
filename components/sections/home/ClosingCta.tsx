@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { useRef } from 'react'
 import { useTranslations } from 'next-intl'
@@ -43,6 +43,7 @@ export function ClosingCta() {
 
   return (
     <Section
+      id='join'
       theme='dark'
       className='overflow-hidden border-t border-vx-line/40 py-32 md:py-48'
     >
