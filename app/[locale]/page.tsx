@@ -4,6 +4,7 @@ import { WhatIsVyraxity } from "@/components/sections/home/WhatIsVyraxity";
 import { CurrentProduct } from "@/components/sections/home/CurrentProduct";
 import { Labs } from "@/components/sections/home/Labs";
 import { Origin } from "@/components/sections/home/Origin";
+import { Principles } from "@/components/sections/home/Principles";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <CurrentProduct />
       <Labs />
       <Origin />
+      <Principles />
     </>
   );
 }

@@ -92,6 +92,16 @@
       "headline": "Nigeria is where we begin. Not where we stop.",
       "copy": "Vyraxity is being built in Nigeria because this is where our story begins. Nigeria gives us a unique environment: a huge population, complex problems, exceptional talent and enormous room for technological innovation. We intend to build from that environment — while designing with the ambition to compete beyond it.",
       "visualSteps": ["NIGERIA", "AFRICA", "THE WORLD"]
+    },
+    "principles": {
+      "eyebrow": "HOW WE BUILD",
+      "headline": "Think globally. Build deliberately.",
+      "items": [
+        { "title": "Build", "description": "Ideas matter only when someone turns them into reality." },
+        { "title": "Solve", "description": "We build for real problems, real people and measurable outcomes." },
+        { "title": "Own", "description": "We believe African technology should be created and owned here." },
+        { "title": "Explore", "description": "We remain curious about what technology can become." }
+      ]
     }
   },
   "products": {},
