@@ -72,6 +72,20 @@
       "subheadline": "AI conversations, shaped by personality.",
       "copy": "Airacter is the first product being developed under Vyraxity. It explores a different way of interacting with AI — one where conversations can feel more personal, expressive and character-driven. Launching November 2026.",
       "cta": "Discover Airacter →"
+    },
+    "labs": {
+      "eyebrow": "VYRAXITY LABS",
+      "headline": "Where ideas become technology.",
+      "copy": "Not every idea starts as a product. Some begin as questions. Some become experiments. Some become research. And some eventually become companies or products. Vyraxity Labs is where we explore emerging technologies, develop prototypes, experiment with new ideas and investigate what could come next.",
+      "areas": [
+        "Artificial Intelligence",
+        "Data & Computing",
+        "Developer Technology",
+        "Infrastructure",
+        "Robotics & Hardware",
+        "Emerging Technologies"
+      ],
+      "cta": "Explore Vyraxity Labs →"
     }
   },
   "products": {},
