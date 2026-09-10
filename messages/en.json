@@ -65,6 +65,13 @@
         "The common thread is simple:",
         "Build meaningful technology. Build it exceptionally well. Build it from Africa."
       ]
+    },
+    "currentProduct": {
+      "eyebrow": "OUR FIRST PRODUCT",
+      "headline": "Airacter",
+      "subheadline": "AI conversations, shaped by personality.",
+      "copy": "Airacter is the first product being developed under Vyraxity. It explores a different way of interacting with AI — one where conversations can feel more personal, expressive and character-driven. Launching November 2026.",
+      "cta": "Discover Airacter →"
     }
   },
   "products": {},
