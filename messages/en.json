@@ -107,6 +107,12 @@
       "eyebrow": "THE LONG VIEW",
       "headline": "Airacter is only the beginning.",
       "copy": "One product cannot change an industry. A company built to keep creating can. Vyraxity is being built for the long term — to create products, develop technology, support ambitious ideas and eventually expand into areas beyond software. We are starting small. Our ambition is not small."
+    },
+    "closingCta": {
+      "headline": "The future can be built from anywhere.",
+      "copy": "We are building it from here.",
+      "primaryCta": "Follow Vyraxity",
+      "secondaryCta": "Get in touch →"
     }
   },
   "products": {},
