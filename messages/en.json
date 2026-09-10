@@ -102,6 +102,11 @@
         { "title": "Own", "description": "We believe African technology should be created and owned here." },
         { "title": "Explore", "description": "We remain curious about what technology can become." }
       ]
+    },
+    "biggerAmbition": {
+      "eyebrow": "THE LONG VIEW",
+      "headline": "Airacter is only the beginning.",
+      "copy": "One product cannot change an industry. A company built to keep creating can. Vyraxity is being built for the long term — to create products, develop technology, support ambitious ideas and eventually expand into areas beyond software. We are starting small. Our ambition is not small."
     }
   },
   "products": {},
