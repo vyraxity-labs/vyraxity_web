@@ -1,0 +1,10 @@
+.airacter-scope {
+  --ar-base: #0B0A10;      /* near-black, faint violet undertone — distinct from Vyraxity's neutral #080808 */
+  --ar-surface: #16141C;   /* card/chat-bubble surface */
+  --ar-text: #F3F1F7;
+  --ar-muted: #9C97A8;
+  --ar-primary: #8B5CF6;   /* violet */
+  --ar-secondary: #FF7A59; /* warm coral */
+  --ar-gradient: linear-gradient(135deg, #8B5CF6 0%, #FF7A59 100%);
+  --ar-radius-card: 16px;  /* noticeably more generous than Vyraxity's 2–8px scale */
+}
