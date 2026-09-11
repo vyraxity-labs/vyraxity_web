@@ -300,10 +300,7 @@
     "ourStory": {
       "heading": "Why Vyraxity exists",
       "copy": "The global technology industry has produced remarkable companies and technologies. Africa has benefited from many of them. But we believe the next chapter should include more technology created here, by people here, and exported from here to the rest of the world. Vyraxity is our attempt to contribute to that future.",
-      "closingLines": [
-        "Not through slogans.",
-        "Through products."
-      ]
+      "closingLines": ["Not through slogans.", "Through products."]
     },
     "whatWeAre": [
       "A technology company.",
@@ -313,10 +310,7 @@
       "Global in ambition."
     ],
     "whatWeBelieve": {
-      "lines": [
-        "Talent exists everywhere.",
-        "Opportunity does not."
-      ],
+      "lines": ["Talent exists everywhere.", "Opportunity does not."],
       "copy": "We want to help demonstrate what is possible when African talent is given the opportunity to build at global standards and with global ambition."
     },
     "buildingToward": [
@@ -347,6 +341,15 @@
       "cta": "View open positions →"
     }
   },
-  "contact": {},
+  "contact": {
+    "hero": {
+      "headline": "Let's build something meaningful.",
+      "copy": "Whether you want to work with us, build with us, partner with us, invest in us, or simply start a conversation, we'd love to hear from you.",
+      "email_label": "Send us an email",
+      "email": "hello@vyraxity.com",
+      "copy_email": "Copy email",
+      "copied": "Copied"
+    }
+  },
   "meta": {}
 }
