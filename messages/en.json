@@ -8,7 +8,9 @@
       "about": "About",
       "careers": "Careers"
     },
-    "contact": "Contact"
+    "contact": "Contact",
+    "menu_open": "menu",
+    "menu_close": "close"
   },
   "footer": {
     "wordmark": "VYRAXITY",
@@ -71,12 +73,21 @@
       "headline": "Airacter",
       "subheadline": "AI conversations, shaped by personality.",
       "copy": "Airacter is the first product being developed under Vyraxity. It explores a different way of interacting with AI — one where conversations can feel more personal, expressive and character-driven. Launching November 2026.",
-      "cta": "Discover Airacter →"
+      "cta": "Discover Airacter →",
+      "preview": "preview",
+      "preview_text": "Airacter UI preview",
+      "launch_text": "Launching November 2026",
+      "footer": {
+        "ai": "AI",
+        "focus": "character-driven",
+        "stage": "in active development"
+      }
     },
     "labs": {
       "eyebrow": "VYRAXITY LABS",
       "headline": "Where ideas become technology.",
       "copy": "Not every idea starts as a product. Some begin as questions. Some become experiments. Some become research. And some eventually become companies or products. Vyraxity Labs is where we explore emerging technologies, develop prototypes, experiment with new ideas and investigate what could come next.",
+      "areas_heading": "areas of exploration",
       "areas": [
         "Artificial Intelligence",
         "Data & Computing",
@@ -97,16 +108,30 @@
       "eyebrow": "HOW WE BUILD",
       "headline": "Think globally. Build deliberately.",
       "items": [
-        { "title": "Build", "description": "Ideas matter only when someone turns them into reality." },
-        { "title": "Solve", "description": "We build for real problems, real people and measurable outcomes." },
-        { "title": "Own", "description": "We believe African technology should be created and owned here." },
-        { "title": "Explore", "description": "We remain curious about what technology can become." }
+        {
+          "title": "Build",
+          "description": "Ideas matter only when someone turns them into reality."
+        },
+        {
+          "title": "Solve",
+          "description": "We build for real problems, real people and measurable outcomes."
+        },
+        {
+          "title": "Own",
+          "description": "We believe African technology should be created and owned here."
+        },
+        {
+          "title": "Explore",
+          "description": "We remain curious about what technology can become."
+        }
       ]
     },
     "biggerAmbition": {
       "eyebrow": "THE LONG VIEW",
       "headline": "Airacter is only the beginning.",
-      "copy": "One product cannot change an industry. A company built to keep creating can. Vyraxity is being built for the long term — to create products, develop technology, support ambitious ideas and eventually expand into areas beyond software. We are starting small. Our ambition is not small."
+      "copy": "One product cannot change an industry. A company built to keep creating can. Vyraxity is being built for the long term — to create products, develop technology, support ambitious ideas and eventually expand into areas beyond software. We are starting small. Our ambition is not small.",
+      "footer1": "We are starting small. ",
+      "footer2": "Our ambition is not small."
     },
     "closingCta": {
       "headline": "The future can be built from anywhere.",
