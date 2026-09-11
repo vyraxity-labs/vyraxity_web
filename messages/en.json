@@ -184,7 +184,22 @@
       "copy": "Vyraxity is being built to create repeatedly — not around one product, but around the ability to identify important problems and build technology to solve them."
     }
   },
-  "airacter": {},
+  "airacter": {
+    "hero": {
+      "headerTag": "A VYRAXITY PRODUCT",
+      "name": "Airacter",
+      "headline": "Meet Airacter.",
+      "subheadline": "AI conversations, shaped by personality.",
+      "copy": "Airacter is an AI chat experience built around the idea that artificial intelligence does not have to feel purely transactional. Instead of interacting with AI as a generic assistant, Airacter explores conversations through distinct personas, identities and personalities.",
+      "cta": "Visit Airacter →",
+      "launchIndicator": "Launching November 2026",
+      "active_personas": "Active Personas",
+      "preview": "preview",
+      "bot_text": "Every conversation has an atmosphere. How should ours feel today?",
+      "user_text": "Direct, thoughtful, and forward-looking.",
+      "text_box_placeholder": "Reply to Airacter"
+    }
+  },
   "labsPage": {},
   "vision": {},
   "about": {},
