@@ -296,7 +296,35 @@
     "hero": {
       "headline": "We are building a technology company for the long term.",
       "copy": "Vyraxity is a technology company founded on a simple belief: Africa can build technology for the world. We are creating a company designed to develop products, explore emerging technologies and turn ambitious ideas into reality."
-    }
+    },
+    "ourStory": {
+      "heading": "Why Vyraxity exists",
+      "copy": "The global technology industry has produced remarkable companies and technologies. Africa has benefited from many of them. But we believe the next chapter should include more technology created here, by people here, and exported from here to the rest of the world. Vyraxity is our attempt to contribute to that future.",
+      "closingLines": [
+        "Not through slogans.",
+        "Through products."
+      ]
+    },
+    "whatWeAre": [
+      "A technology company.",
+      "Software first.",
+      "Technology beyond software when the opportunity demands it.",
+      "African in origin.",
+      "Global in ambition."
+    ],
+    "whatWeBelieve": {
+      "lines": [
+        "Talent exists everywhere.",
+        "Opportunity does not."
+      ],
+      "copy": "We want to help demonstrate what is possible when African talent is given the opportunity to build at global standards and with global ambition."
+    },
+    "buildingToward": [
+      "A company capable of repeatedly creating valuable technology.",
+      "A company whose products can cross borders.",
+      "A company whose intellectual property originates in Africa and creates value globally.",
+      "A company that can grow far beyond its first product."
+    ]
   },
   "careers": {},
   "contact": {},
