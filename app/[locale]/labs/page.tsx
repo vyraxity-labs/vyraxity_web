@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl'
 import { LabsHero } from '@/components/sections/labs/LabsHero'
 import { WhatHappensHere } from '@/components/sections/labs/WhatHappensHere'
 import { ExperimentCard } from '@/components/sections/labs/ExperimentCard'
+import { LabsClosing } from '@/components/sections/labs/LabsClosing'
 import { Section } from '@/components/ui/Section'
 import { Container } from '@/components/ui/Container'
 
@@ -35,6 +36,7 @@ export default function LabsPage() {
           </div>
         </Container>
       </Section>
+      <LabsClosing />
     </>
   )
 }
