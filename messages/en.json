@@ -263,6 +263,33 @@
         "The opportunity is not to copy what already exists.",
         "The opportunity is to build what should exist."
       ]
+    },
+    "nigeria": {
+      "title": "starting point",
+      "heading": "We start in Nigeria.",
+      "copy": "Nigeria is our starting point. It is home to the people, problems, opportunities and talent that shape the first chapter of Vyraxity. But geography should not define the ceiling of our ambition."
+    },
+    "africa": {
+      "title": "the ecosystem",
+      "heading": "Africa is part of the mission.",
+      "copy": "We want Vyraxity to contribute to an ecosystem where African talent creates globally competitive technology companies. That means:",
+      "list": [
+        "Products",
+        "Research",
+        "Engineering",
+        "Intellectual property",
+        "Jobs",
+        "Knowledge"
+      ]
+    },
+    "world": {
+      "title": "the horizon",
+      "heading": "Global is the goal.",
+      "copy": "We do not want to build products that succeed merely because they are African. We want to build products that succeed because they are excellent.",
+      "closingLines": [
+        "Africa is where we build.",
+        "The world is where we compete."
+      ]
     }
   },
   "about": {},
