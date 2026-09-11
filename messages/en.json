@@ -231,6 +231,18 @@
           "description": "Some experiments become products. Some become infrastructure. Some simply teach us something valuable."
         }
       ]
+    },
+    "experimentExample": {
+      "title": "current experiments",
+      "system": "VYRAXITY LABS",
+      "id": "EXPERIMENT / 014",
+      "status": "SYSTEM: ACTIVE",
+      "description": "Exploring computational approaches to...",
+      "meta": {
+        "status": "PROTOTYPE",
+        "version": "0.3.2",
+        "updated": "03 SEP 2026"
+      }
     }
   },
   "vision": {},
