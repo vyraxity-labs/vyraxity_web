@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl'
 import { ProductsHero } from '@/components/sections/products/ProductsHero'
 import { AiracterCard } from '@/components/sections/products/AiracterCard'
 import { FutureProductCard } from '@/components/sections/products/FutureProductCard'
+import { ProductsClosing } from '@/components/sections/products/ProductsClosing'
 import { Section } from '@/components/ui/Section'
 import { Container } from '@/components/ui/Container'
 
@@ -34,6 +35,7 @@ export default function ProductsPage() {
           </div>
         </Container>
       </Section>
+      <ProductsClosing />
     </>
   )
 }

@@ -178,7 +178,11 @@
         ],
         "footer": "in development"
       }
-    ]
+    ],
+    "closing": {
+      "headline": "One company. Many ideas. A long horizon.",
+      "copy": "Vyraxity is being built to create repeatedly — not around one product, but around the ability to identify important problems and build technology to solve them."
+    }
   },
   "airacter": {},
   "labsPage": {},
