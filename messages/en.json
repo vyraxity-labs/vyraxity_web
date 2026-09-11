@@ -326,7 +326,27 @@
       "A company that can grow far beyond its first product."
     ]
   },
-  "careers": {},
+  "careers": {
+    "hero": {
+      "headline": "Build the future with us.",
+      "copy": "We are looking for people who are curious enough to explore difficult problems and ambitious enough to build solutions that matter. Vyraxity is being built in Africa with global standards and global ambition."
+    },
+    "whoWeWant": {
+      "roles": [
+        "Engineers.",
+        "Designers.",
+        "Researchers.",
+        "Product thinkers.",
+        "Builders."
+      ],
+      "closingLine": "People who look at difficult problems and think: \"Let's build something.\""
+    },
+    "workingHere": "You won't be joining a company with everything figured out. You will be joining a company that is still being built. That means more uncertainty. But it also means more opportunity to shape what Vyraxity becomes.",
+    "openings": {
+      "empty": "There are currently no open positions.",
+      "cta": "View open positions →"
+    }
+  },
   "contact": {},
   "meta": {}
 }
