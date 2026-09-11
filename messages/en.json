@@ -145,6 +145,19 @@
       "eyebrow": "PRODUCTS",
       "headline": "We build technology products for the real world.",
       "copy": "Vyraxity develops products that solve meaningful problems and explore new possibilities in technology. Our first product is only the beginning."
+    },
+    "airacterCard": {
+      "label": "01 / CURRENT",
+      "name": "Airacter",
+      "os": "OS",
+      "description": "A persona-based AI experience designed to make conversations with artificial intelligence more expressive, personal and engaging.",
+      "status": "Launching November 2026",
+      "cta": "Explore Airacter →",
+      "persona_engine": "Persona conversation engine",
+      "footer": {
+        "focus": "conversational AI",
+        "engine": "core engine"
+      }
     }
   },
   "airacter": {},
