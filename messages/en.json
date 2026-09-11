@@ -140,7 +140,13 @@
       "secondaryCta": "Get in touch →"
     }
   },
-  "products": {},
+  "products": {
+    "hero": {
+      "eyebrow": "PRODUCTS",
+      "headline": "We build technology products for the real world.",
+      "copy": "Vyraxity develops products that solve meaningful problems and explore new possibilities in technology. Our first product is only the beginning."
+    }
+  },
   "airacter": {},
   "labsPage": {},
   "vision": {},
