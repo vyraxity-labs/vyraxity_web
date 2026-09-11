@@ -292,7 +292,12 @@
       ]
     }
   },
-  "about": {},
+  "about": {
+    "hero": {
+      "headline": "We are building a technology company for the long term.",
+      "copy": "Vyraxity is a technology company founded on a simple belief: Africa can build technology for the world. We are creating a company designed to develop products, explore emerging technologies and turn ambitious ideas into reality."
+    }
+  },
   "careers": {},
   "contact": {},
   "meta": {}
