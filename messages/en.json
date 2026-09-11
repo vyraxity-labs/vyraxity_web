@@ -198,6 +198,11 @@
       "bot_text": "Every conversation has an atmosphere. How should ours feel today?",
       "user_text": "Direct, thoughtful, and forward-looking.",
       "text_box_placeholder": "Reply to Airacter"
+    },
+    "relationship": {
+      "eyebrow": "VYRAXITY",
+      "heading": "Built by Vyraxity.",
+      "copy": "Airacter is the first product being developed under Vyraxity. It represents the beginning of Vyraxity's journey to build globally relevant technology from Africa. Airacter is the product. Vyraxity is the company building what comes next."
     }
   },
   "labsPage": {},
