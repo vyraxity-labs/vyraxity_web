@@ -210,6 +210,27 @@
       "eyebrow": "VYRAXITY LABS",
       "headline": "We don't know what we'll build next. That's the point.",
       "copy": "The future rarely arrives as a finished product. It begins as an experiment. Vyraxity Labs is our space for research, experimentation, prototypes and technological exploration."
+    },
+    "whatHappensHere": {
+      "heading": "What happens here?",
+      "items": [
+        {
+          "title": "Research",
+          "description": "We investigate technologies that could unlock new possibilities."
+        },
+        {
+          "title": "Experimentation",
+          "description": "We build prototypes to test ideas quickly."
+        },
+        {
+          "title": "Open source",
+          "description": "Where appropriate, we share tools and technology with the wider developer community."
+        },
+        {
+          "title": "Product discovery",
+          "description": "Some experiments become products. Some become infrastructure. Some simply teach us something valuable."
+        }
+      ]
     }
   },
   "vision": {},
