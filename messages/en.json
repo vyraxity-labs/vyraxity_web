@@ -140,12 +140,213 @@
       "secondaryCta": "Get in touch →"
     }
   },
-  "products": {},
-  "airacter": {},
-  "labsPage": {},
-  "vision": {},
-  "about": {},
-  "careers": {},
+  "products": {
+    "hero": {
+      "eyebrow": "PRODUCTS",
+      "headline": "We build technology products for the real world.",
+      "copy": "Vyraxity develops products that solve meaningful problems and explore new possibilities in technology. Our first product is only the beginning."
+    },
+    "airacterCard": {
+      "label": "01 / CURRENT",
+      "name": "Airacter",
+      "os": "OS",
+      "description": "A persona-based AI experience designed to make conversations with artificial intelligence more expressive, personal and engaging.",
+      "status": "Launching November 2026",
+      "cta": "Explore Airacter →",
+      "persona_engine": "Persona conversation engine",
+      "footer": {
+        "focus": "conversational AI",
+        "engine": "core engine"
+      }
+    },
+    "future": [
+      {
+        "label": "02 / NEXT",
+        "lines": [
+          "Something is being built.",
+          "A new idea is taking shape inside Vyraxity.",
+          "Coming soon."
+        ],
+        "footer": "in development"
+      },
+      {
+        "label": "03 / FUTURE",
+        "lines": [
+          "More technology.",
+          "New products and experiments will emerge as Vyraxity grows.",
+          "Stay tuned."
+        ],
+        "footer": "in development"
+      }
+    ],
+    "closing": {
+      "headline": "One company. Many ideas. A long horizon.",
+      "copy": "Vyraxity is being built to create repeatedly — not around one product, but around the ability to identify important problems and build technology to solve them."
+    }
+  },
+  "airacter": {
+    "hero": {
+      "headerTag": "A VYRAXITY PRODUCT",
+      "name": "Airacter",
+      "headline": "Meet Airacter.",
+      "subheadline": "AI conversations, shaped by personality.",
+      "copy": "Airacter is an AI chat experience built around the idea that artificial intelligence does not have to feel purely transactional. Instead of interacting with AI as a generic assistant, Airacter explores conversations through distinct personas, identities and personalities.",
+      "cta": "Visit Airacter →",
+      "launchIndicator": "Launching November 2026",
+      "active_personas": "Active Personas",
+      "preview": "preview",
+      "bot_text": "Every conversation has an atmosphere. How should ours feel today?",
+      "user_text": "Direct, thoughtful, and forward-looking.",
+      "text_box_placeholder": "Reply to Airacter"
+    },
+    "relationship": {
+      "eyebrow": "VYRAXITY",
+      "heading": "Built by Vyraxity.",
+      "copy": "Airacter is the first product being developed under Vyraxity. It represents the beginning of Vyraxity's journey to build globally relevant technology from Africa. Airacter is the product. Vyraxity is the company building what comes next."
+    }
+  },
+  "labsPage": {
+    "hero": {
+      "eyebrow": "VYRAXITY LABS",
+      "headline": "We don't know what we'll build next. That's the point.",
+      "copy": "The future rarely arrives as a finished product. It begins as an experiment. Vyraxity Labs is our space for research, experimentation, prototypes and technological exploration."
+    },
+    "whatHappensHere": {
+      "heading": "What happens here?",
+      "items": [
+        {
+          "title": "Research",
+          "description": "We investigate technologies that could unlock new possibilities."
+        },
+        {
+          "title": "Experimentation",
+          "description": "We build prototypes to test ideas quickly."
+        },
+        {
+          "title": "Open source",
+          "description": "Where appropriate, we share tools and technology with the wider developer community."
+        },
+        {
+          "title": "Product discovery",
+          "description": "Some experiments become products. Some become infrastructure. Some simply teach us something valuable."
+        }
+      ]
+    },
+    "experimentExample": {
+      "title": "current experiments",
+      "system": "VYRAXITY LABS",
+      "id": "EXPERIMENT / 014",
+      "status": "SYSTEM: ACTIVE",
+      "description": "Exploring computational approaches to...",
+      "meta": {
+        "status": "PROTOTYPE",
+        "version": "0.3.2",
+        "updated": "03 SEP 2026"
+      }
+    },
+    "closing": "Not every experiment needs to become a company. But every experiment can teach us something about what should be built next."
+  },
+  "vision": {
+    "hero": {
+      "headline": "Africa should not only consume the future.",
+      "headlineTwo": "Africa should help build it.",
+      "copy": "Technology has transformed the world, but the geographic distribution of technology creation has never been equal. Vyraxity believes Africa can play a much larger role in the technology industry — not simply as a destination for products created elsewhere, but as a source of products, companies, intellectual property and ideas that influence the world. That is the future we want to contribute to."
+    },
+    "ourAmbition": {
+      "heading": "From consumer to creator.",
+      "lines": [
+        "Africa has enormous technological challenges.",
+        "But those challenges can also produce extraordinary innovation.",
+        "A solution built to work under African conditions can become useful elsewhere.",
+        "A product designed for African users can become globally relevant.",
+        "An engineer trained in Nigeria can build software used by someone in Europe.",
+        "The opportunity is not to copy what already exists.",
+        "The opportunity is to build what should exist."
+      ]
+    },
+    "nigeria": {
+      "title": "starting point",
+      "heading": "We start in Nigeria.",
+      "copy": "Nigeria is our starting point. It is home to the people, problems, opportunities and talent that shape the first chapter of Vyraxity. But geography should not define the ceiling of our ambition."
+    },
+    "africa": {
+      "title": "the ecosystem",
+      "heading": "Africa is part of the mission.",
+      "copy": "We want Vyraxity to contribute to an ecosystem where African talent creates globally competitive technology companies. That means:",
+      "list": [
+        "Products",
+        "Research",
+        "Engineering",
+        "Intellectual property",
+        "Jobs",
+        "Knowledge"
+      ]
+    },
+    "world": {
+      "title": "the horizon",
+      "heading": "Global is the goal.",
+      "copy": "We do not want to build products that succeed merely because they are African. We want to build products that succeed because they are excellent.",
+      "closingLines": [
+        "Africa is where we build.",
+        "The world is where we compete."
+      ]
+    }
+  },
+  "about": {
+    "hero": {
+      "headline": "We are building a technology company for the long term.",
+      "copy": "Vyraxity is a technology company founded on a simple belief: Africa can build technology for the world. We are creating a company designed to develop products, explore emerging technologies and turn ambitious ideas into reality."
+    },
+    "ourStory": {
+      "heading": "Why Vyraxity exists",
+      "copy": "The global technology industry has produced remarkable companies and technologies. Africa has benefited from many of them. But we believe the next chapter should include more technology created here, by people here, and exported from here to the rest of the world. Vyraxity is our attempt to contribute to that future.",
+      "closingLines": [
+        "Not through slogans.",
+        "Through products."
+      ]
+    },
+    "whatWeAre": [
+      "A technology company.",
+      "Software first.",
+      "Technology beyond software when the opportunity demands it.",
+      "African in origin.",
+      "Global in ambition."
+    ],
+    "whatWeBelieve": {
+      "lines": [
+        "Talent exists everywhere.",
+        "Opportunity does not."
+      ],
+      "copy": "We want to help demonstrate what is possible when African talent is given the opportunity to build at global standards and with global ambition."
+    },
+    "buildingToward": [
+      "A company capable of repeatedly creating valuable technology.",
+      "A company whose products can cross borders.",
+      "A company whose intellectual property originates in Africa and creates value globally.",
+      "A company that can grow far beyond its first product."
+    ]
+  },
+  "careers": {
+    "hero": {
+      "headline": "Build the future with us.",
+      "copy": "We are looking for people who are curious enough to explore difficult problems and ambitious enough to build solutions that matter. Vyraxity is being built in Africa with global standards and global ambition."
+    },
+    "whoWeWant": {
+      "roles": [
+        "Engineers.",
+        "Designers.",
+        "Researchers.",
+        "Product thinkers.",
+        "Builders."
+      ],
+      "closingLine": "People who look at difficult problems and think: \"Let's build something.\""
+    },
+    "workingHere": "You won't be joining a company with everything figured out. You will be joining a company that is still being built. That means more uncertainty. But it also means more opportunity to shape what Vyraxity becomes.",
+    "openings": {
+      "empty": "There are currently no open positions.",
+      "cta": "View open positions →"
+    }
+  },
   "contact": {},
   "meta": {}
 }
