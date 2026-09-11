@@ -246,7 +246,13 @@
     },
     "closing": "Not every experiment needs to become a company. But every experiment can teach us something about what should be built next."
   },
-  "vision": {},
+  "vision": {
+    "hero": {
+      "headline": "Africa should not only consume the future.",
+      "headlineTwo": "Africa should help build it.",
+      "copy": "Technology has transformed the world, but the geographic distribution of technology creation has never been equal. Vyraxity believes Africa can play a much larger role in the technology industry — not simply as a destination for products created elsewhere, but as a source of products, companies, intellectual property and ideas that influence the world. That is the future we want to contribute to."
+    }
+  },
   "about": {},
   "careers": {},
   "contact": {},
