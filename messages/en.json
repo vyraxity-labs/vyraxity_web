@@ -205,7 +205,13 @@
       "copy": "Airacter is the first product being developed under Vyraxity. It represents the beginning of Vyraxity's journey to build globally relevant technology from Africa. Airacter is the product. Vyraxity is the company building what comes next."
     }
   },
-  "labsPage": {},
+  "labsPage": {
+    "hero": {
+      "eyebrow": "VYRAXITY LABS",
+      "headline": "We don't know what we'll build next. That's the point.",
+      "copy": "The future rarely arrives as a finished product. It begins as an experiment. Vyraxity Labs is our space for research, experimentation, prototypes and technological exploration."
+    }
+  },
   "vision": {},
   "about": {},
   "careers": {},
