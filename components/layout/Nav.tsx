@@ -1,6 +1,6 @@
 ﻿'use client'
 
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { useTranslations } from 'next-intl'
 import { Link, usePathname } from '@/i18n/navigation'
 import { useScroll } from 'motion/react'
@@ -127,7 +127,7 @@ export function Nav() {
               aria-label='Open navigation menu'
               className='md:hidden font-mono text-xs uppercase tracking-widest text-vx-muted hover:text-vx-amber transition-colors duration-150 cursor-pointer p-2'
             >
-              MENU
+              {t('menu_open')}
             </button>
           </div>
         </div>

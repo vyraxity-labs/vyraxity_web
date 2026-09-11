@@ -134,7 +134,7 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
               aria-label='Close navigation menu'
               className='font-mono text-xs uppercase tracking-widest text-vx-muted hover:text-vx-amber transition-colors duration-150 cursor-pointer p-2'
             >
-              CLOSE
+              {t('menu_close')}
             </button>
           </div>
 

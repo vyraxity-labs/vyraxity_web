@@ -123,7 +123,7 @@ export function CurrentProduct() {
                     <span className='w-2.5 h-2.5 rounded-full bg-vx-line/80 inline-block' />
                   </div>
                   <span className='font-mono text-[11px] uppercase tracking-widest text-vx-muted/60'>
-                    AIRACTER.PREVIEW
+                    {t('headline')}.{t('preview')}
                   </span>
                 </div>
 
@@ -133,19 +133,19 @@ export function CurrentProduct() {
                     <span className='font-mono text-sm font-bold'>A</span>
                   </div>
                   <span className='font-mono text-xs uppercase tracking-widest text-vx-muted/80 mb-1'>
-                    Airacter UI Preview
+                    {t('preview_text')}
                   </span>
                   <span className='font-mono text-[11px] text-vx-muted/50'>
-                    Launching November 2026
+                    {t('launch_text')}
                   </span>
                 </div>
 
                 {/* Mock UI Status Footer */}
-                <div className='pt-4 border-t border-vx-line/40 flex items-center justify-between font-mono text-[10px] text-vx-muted/50'>
-                  <span>AI / CHARACTER-DRIVEN</span>
-                  <span className='text-vx-amber/80'>
-                    IN ACTIVE DEVELOPMENT
+                <div className='pt-4 border-t border-vx-line/40 flex items-center justify-between font-mono text-[10px] text-vx-muted/50 uppercase'>
+                  <span>
+                    {t('footer.ai')} / {t('footer.focus')}
                   </span>
+                  <span className='text-vx-amber/80'>{t('footer.stage')}</span>
                 </div>
               </motion.div>
             </div>
