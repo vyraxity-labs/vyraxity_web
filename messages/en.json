@@ -158,7 +158,27 @@
         "focus": "conversational AI",
         "engine": "core engine"
       }
-    }
+    },
+    "future": [
+      {
+        "label": "02 / NEXT",
+        "lines": [
+          "Something is being built.",
+          "A new idea is taking shape inside Vyraxity.",
+          "Coming soon."
+        ],
+        "footer": "in development"
+      },
+      {
+        "label": "03 / FUTURE",
+        "lines": [
+          "More technology.",
+          "New products and experiments will emerge as Vyraxity grows.",
+          "Stay tuned."
+        ],
+        "footer": "in development"
+      }
+    ]
   },
   "airacter": {},
   "labsPage": {},
