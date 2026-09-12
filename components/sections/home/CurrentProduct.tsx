@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import React, { useRef } from 'react'
 import { useTranslations } from 'next-intl'
@@ -113,6 +113,7 @@ export function CurrentProduct() {
               {/* Dominant Product Frame */}
               <motion.div
                 variants={itemVariants}
+                data-cursor='card'
                 className='relative z-10 w-full aspect-16/10 max-w-2xl rounded-vx-lg border border-vx-line/80 bg-vx-ink/80 flex flex-col justify-between p-6 sm:p-8 backdrop-blur-sm'
               >
                 {/* Mock UI Frame Header */}

@@ -10,7 +10,8 @@
     },
     "contact": "Contact",
     "menu_open": "menu",
-    "menu_close": "close"
+    "menu_close": "close",
+    "skip_to_content": "Skip to content"
   },
   "footer": {
     "wordmark": "VYRAXITY",
@@ -398,5 +399,38 @@
       }
     }
   },
-  "meta": {}
+  "meta": {
+    "home": {
+      "title": "Vyraxity — Technology, Built from Africa. Built for the World.",
+      "description": "Vyraxity is a technology company building ambitious software and exploring emerging technologies from Africa for the world."
+    },
+    "products": {
+      "title": "Products — Vyraxity",
+      "description": "Explore the technology products being built by Vyraxity, beginning with Airacter."
+    },
+    "airacter": {
+      "title": "Airacter — A Vyraxity Product",
+      "description": "Airacter is a persona-based AI experience built by Vyraxity. Launching November 2026."
+    },
+    "labs": {
+      "title": "Vyraxity Labs — Exploring What Comes Next",
+      "description": "Research, experiments and prototypes from Vyraxity."
+    },
+    "vision": {
+      "title": "Our Vision — Vyraxity",
+      "description": "We believe Africa should not only consume technology, but help build the technologies that shape the future."
+    },
+    "about": {
+      "title": "About Vyraxity",
+      "description": "Learn about Vyraxity, a technology company building globally relevant products from Africa."
+    },
+    "careers": {
+      "title": "Careers — Vyraxity",
+      "description": "Join Vyraxity and help build globally relevant technology from Africa."
+    },
+    "contact": {
+      "title": "Contact Vyraxity",
+      "description": "Get in touch with Vyraxity about partnerships, opportunities, products and technology."
+    }
+  }
 }

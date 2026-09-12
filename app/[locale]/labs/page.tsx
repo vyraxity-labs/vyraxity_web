@@ -1,3 +1,5 @@
+import type { Metadata } from 'next'
+import { getTranslations } from 'next-intl/server'
 import { useTranslations } from 'next-intl'
 import { LabsHero } from '@/components/sections/labs/LabsHero'
 import { WhatHappensHere } from '@/components/sections/labs/WhatHappensHere'
@@ -6,7 +8,38 @@ import { LabsClosing } from '@/components/sections/labs/LabsClosing'
 import { Section } from '@/components/ui/Section'
 import { Container } from '@/components/ui/Container'
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  const t = await getTranslations({ locale, namespace: 'meta.labs' })
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://vyraxity.com'
+
+  return {
+    title: t('title'),
+    description: t('description'),
+    alternates: {
+      canonical: `${siteUrl}/${locale}/labs`,
+    },
+    openGraph: {
+      title: t('title'),
+      description: t('description'),
+      url: `${siteUrl}/${locale}/labs`,
+      siteName: 'Vyraxity',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('title'),
+      description: t('description'),
+    },
+  }
+}
+
 export default function LabsPage() {
+
   const t = useTranslations('labsPage.experimentExample')
 
   return (

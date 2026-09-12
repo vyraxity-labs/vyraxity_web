@@ -6,6 +6,8 @@ import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
 import { Nav } from '@/components/layout/Nav'
 import { Footer } from '@/components/layout/Footer'
+import { CustomCursor } from '@/components/ui/CustomCursor'
+import { getOrganizationStructuredData } from '@/lib/structuredData'
 import '@/app/globals.css'
 
 const geistSans = Geist({
@@ -19,8 +21,15 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Vyraxity',
-  description: 'Technology, built from Africa. Built for the world.',
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL || 'https://vyraxity.com'
+  ),
+  title: {
+    default: 'Vyraxity — Technology, Built from Africa. Built for the World.',
+    template: '%s | Vyraxity',
+  },
+  description:
+    'Vyraxity is a technology company building ambitious software and exploring emerging technologies from Africa for the world.',
 }
 
 export function generateStaticParams() {
@@ -43,19 +52,36 @@ export default async function LocaleLayout({
 
   // Providing all messages to the client side
   const messages = await getMessages()
+  const structuredData = getOrganizationStructuredData()
 
   return (
     <html
       lang={locale}
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          type='application/ld+json'
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+      </head>
       <body className='min-h-full flex flex-col font-sans'>
         <NextIntlClientProvider messages={messages}>
+          <a
+            href='#main-content'
+            className='sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-vx-amber focus:text-vx-black focus:font-mono focus:text-sm focus:font-medium focus:rounded-vx-sm focus:outline-none'
+          >
+            {locale === 'fr' ? 'Passer au contenu' : 'Skip to content'}
+          </a>
+          <CustomCursor />
           <Nav />
-          <main className="flex-1">{children}</main>
+          <main id='main-content' className='flex-1' tabIndex={-1}>
+            {children}
+          </main>
           <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
   )
 }
+
