@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { useState, useEffect } from 'react'
 import { useTranslations } from 'next-intl'
@@ -6,7 +6,9 @@ import { Link, usePathname } from '@/i18n/navigation'
 import { useScroll } from 'motion/react'
 import { cn } from '@/lib/utils'
 import { MobileNav } from './MobileNav'
+import { LanguageSwitcher } from './LanguageSwitcher'
 import { useActiveSection } from '@/lib/hooks/useActiveSection'
+
 
 export function Nav() {
   const t = useTranslations('nav')
@@ -118,17 +120,27 @@ export function Nav() {
               >
                 [ {t('contact')} ]
               </Link>
+
+              {/* Language Switcher */}
+              <div className='pl-2 border-l border-vx-line/60'>
+                <LanguageSwitcher />
+              </div>
             </nav>
 
-            {/* Mobile Menu Trigger (text-button "MENU", not a hamburger icon) */}
-            <button
-              type='button'
-              onClick={() => setIsMobileOpen(true)}
-              aria-label='Open navigation menu'
-              className='md:hidden font-mono text-xs uppercase tracking-widest text-vx-muted hover:text-vx-amber transition-colors duration-150 cursor-pointer p-2'
-            >
-              {t('menu_open')}
-            </button>
+            {/* Mobile Actions: Language Switcher + Menu Trigger */}
+            <div className='md:hidden flex items-center gap-4'>
+              <LanguageSwitcher />
+
+              {/* Mobile Menu Trigger (text-button "MENU", not a hamburger icon) */}
+              <button
+                type='button'
+                onClick={() => setIsMobileOpen(true)}
+                aria-label='Open navigation menu'
+                className='font-mono text-xs uppercase tracking-widest text-vx-muted hover:text-vx-amber transition-colors duration-150 cursor-pointer p-2'
+              >
+                {t('menu_open')}
+              </button>
+            </div>
           </div>
         </div>
       </header>

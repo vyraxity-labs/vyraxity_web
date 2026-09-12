@@ -1,0 +1,441 @@
+{
+  "nav": {
+    "logo": "VYRAXITY",
+    "links": {
+      "products": "Produits",
+      "labs": "Labs",
+      "vision": "Vision",
+      "about": "À propos",
+      "careers": "Carrières"
+    },
+    "contact": "Contact",
+    "menu_open": "menu",
+    "menu_close": "fermer"
+  },
+  "footer": {
+    "wordmark": "VYRAXITY",
+    "tagline": "La technologie, bâtie depuis l'Afrique.\nBâtie pour le monde.",
+    "linksHeading": "",
+    "links": {
+      "products": "Produits",
+      "labs": "Labs",
+      "vision": "Vision",
+      "about": "À propos",
+      "careers": "Carrières",
+      "contact": "Contact"
+    },
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "x": "X",
+      "instagram": "Instagram"
+    },
+    "copyright": "© 2026 Vyraxity. Tous droits réservés.",
+    "signature": "Bâti au Nigeria."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "VYRAXITY",
+      "headline": "La technologie, bâtie depuis l'Afrique. Bâtie pour le monde.",
+      "supportingCopy": "Vyraxity est une entreprise technologique qui conçoit des produits ambitieux et explore les technologies qui façonneront demain — en commençant au Nigeria, en grandissant à travers l'Afrique et en rayonnant dans le monde entier.",
+      "primaryCta": "Découvrir nos produits",
+      "secondaryCta": "Notre vision",
+      "supportingStatement": "L'Afrique n'a pas seulement vocation à adopter l'avenir. Nous pouvons le bâtir.",
+      "scrollHint": "DÉFILER"
+    },
+    "belief": {
+      "eyebrow": "NOTRE RAISON D'ÊTRE",
+      "headline": "L'Afrique doit concevoir davantage des technologies dont elle dépend.",
+      "copy": [
+        "Depuis des décennies, nombre des technologies les plus influentes au monde ont été imaginées et développées hors d'Afrique.",
+        "Nous croyons que l'Afrique peut devenir bien plus qu'un simple marché pour ces technologies.",
+        "Nous pouvons les créer.",
+        "Nous pouvons bâtir des entreprises autour d'elles.",
+        "Nous pouvons détenir la propriété intellectuelle qui les sous-tend.",
+        "Et nous pouvons concevoir des produits que les utilisateurs du monde entier choisissent d'utiliser.",
+        "Telle est l'opportunité que Vyraxity entend poursuivre."
+      ]
+    },
+    "whatIsVyraxity": {
+      "eyebrow": "VYRAXITY",
+      "headline": "Une entreprise. De multiples possibilités.",
+      "copy": [
+        "Vyraxity n'est pas construite autour d'un seul produit.",
+        "Nous bâtissons une entreprise technologique capable de créer des produits sur différents marchés et d'explorer divers domaines technologiques.",
+        "Aujourd'hui, cela signifie le logiciel.",
+        "Demain, cela pourrait englober des catégories technologiques entièrement inédites.",
+        "Le fil conducteur est simple :",
+        "Bâtir une technologie qui a du sens. La bâtir avec une exigence absolue. La bâtir depuis l'Afrique."
+      ]
+    },
+    "currentProduct": {
+      "eyebrow": "NOTRE PREMIER PRODUIT",
+      "headline": "Airacter",
+      "subheadline": "Des conversations avec l'IA, forgées par la personnalité.",
+      "copy": "Airacter est le premier produit développé sous l'égide de Vyraxity. Il explore une approche nouvelle de l'interaction avec l'IA — où les échanges se révèlent plus personnels, expressifs et incarnés. Lancement en novembre 2026.",
+      "cta": "Découvrir Airacter →",
+      "preview": "aperçu",
+      "preview_text": "Aperçu de l'interface Airacter",
+      "launch_text": "Lancement en novembre 2026",
+      "footer": {
+        "ai": "IA",
+        "focus": "incarnée & expressive",
+        "stage": "en développement actif"
+      }
+    },
+    "labs": {
+      "eyebrow": "VYRAXITY LABS",
+      "headline": "Là où les idées deviennent technologie.",
+      "copy": "Toutes les idées ne naissent pas sous forme de produit. Certaines commencent par des questions. D'autres deviennent des expérimentations ou de la recherche. Et certaines finissent par devenir des entreprises ou des produits. Vyraxity Labs est notre espace pour explorer les technologies émergentes, développer des prototypes, expérimenter de nouvelles intuitions et sonder ce qui pourrait advenir.",
+      "areas_heading": "domaines d'exploration",
+      "areas": [
+        "Intelligence Artificielle",
+        "Données & Calcul",
+        "Technologies pour Développeurs",
+        "Infrastructure",
+        "Robotique & Matériel",
+        "Technologies Émergentes"
+      ],
+      "cta": "Explorer Vyraxity Labs →"
+    },
+    "origin": {
+      "eyebrow": "NOTRE POINT DE DÉPART",
+      "headline": "Le Nigeria est notre point de départ. Pas notre limite.",
+      "copy": "Vyraxity prend racine au Nigeria parce que c'est là que débute notre histoire. Le Nigeria nous offre un environnement unique : une immense population, des défis complexes, des talents exceptionnels et un champ d'innovation technologique colossal. Nous entendons bâtir à partir de ce terreau — tout en concevant avec l'ambition de rivaliser bien au-delà.",
+      "visualSteps": ["NIGERIA", "AFRIQUE", "LE MONDE"]
+    },
+    "principles": {
+      "eyebrow": "COMMENT NOUS BÂTISSONS",
+      "headline": "Penser globalement. Bâtir avec méthode.",
+      "items": [
+        {
+          "title": "Bâtir",
+          "description": "Les idées ne prennent sens que lorsque quelqu'un les concrétise dans le réel."
+        },
+        {
+          "title": "Résoudre",
+          "description": "Nous concevons pour des problèmes réels, des personnes réelles et des résultats tangibles."
+        },
+        {
+          "title": "Posséder",
+          "description": "Nous croyons que la technologie africaine doit être créée et détenue ici."
+        },
+        {
+          "title": "Explorer",
+          "description": "Nous cultivons une curiosité permanente envers ce que la technologie peut devenir."
+        }
+      ]
+    },
+    "biggerAmbition": {
+      "eyebrow": "LA VISION À LONG TERME",
+      "headline": "Airacter n'est que le commencement.",
+      "copy": "Un seul produit ne suffit pas à transformer une industrie. Une entreprise conçue pour innover sans relâche en est capable. Vyraxity est bâtie pour le long terme — pour créer des produits, développer des technologies, soutenir des idées ambitieuses et s'étendre au-delà du logiciel. Nous commençons petit. Notre ambition n'a rien de modeste.",
+      "footer1": "Nous commençons petit. ",
+      "footer2": "Notre ambition n'a rien de modeste."
+    },
+    "closingCta": {
+      "headline": "L'avenir peut se bâtir depuis n'importe où.",
+      "copy": "Nous le bâtissons depuis ici.",
+      "primaryCta": "Suivre Vyraxity",
+      "secondaryCta": "Nous contacter →"
+    }
+  },
+  "products": {
+    "hero": {
+      "eyebrow": "PRODUITS",
+      "headline": "Nous concevons des produits technologiques pour le monde réel.",
+      "copy": "Vyraxity développe des produits qui répondent à des problèmes essentiels et explorent de nouvelles voies technologiques. Notre premier produit n'est que le début."
+    },
+    "airacterCard": {
+      "label": "01 / ACTUEL",
+      "name": "Airacter",
+      "os": "OS",
+      "description": "Une expérience d'IA conversationnelle conçue pour rendre les interactions avec l'intelligence artificielle plus expressives, personnelles et captivantes.",
+      "status": "Lancement en novembre 2026",
+      "cta": "Découvrir Airacter →",
+      "persona_engine": "Moteur de conversation incarné",
+      "footer": {
+        "focus": "IA conversationnelle",
+        "engine": "moteur central"
+      }
+    },
+    "future": [
+      {
+        "label": "02 / À SUIVRE",
+        "lines": [
+          "Quelque chose se prépare.",
+          "Une nouvelle idée prend forme chez Vyraxity.",
+          "Bientôt disponible."
+        ],
+        "footer": "en développement"
+      },
+      {
+        "label": "03 / FUTUR",
+        "lines": [
+          "D'autres technologies à venir.",
+          "De nouveaux produits et expérimentations verront le jour avec la croissance de Vyraxity.",
+          "Restez à l'écoute."
+        ],
+        "footer": "en développement"
+      }
+    ],
+    "closing": {
+      "headline": "Une entreprise. De multiples idées. Un horizon lointain.",
+      "copy": "Vyraxity est conçue pour créer en continu — non pas autour d'un seul produit, mais autour de la capacité à discerner les défis majeurs et à concevoir la technologie pour les résoudre."
+    }
+  },
+  "airacter": {
+    "hero": {
+      "headerTag": "UN PRODUIT VYRAXITY",
+      "name": "Airacter",
+      "headline": "Découvrez Airacter.",
+      "subheadline": "Des conversations avec l'IA, forgées par la personnalité.",
+      "copy": "Airacter est une expérience conversationnelle pensée autour de la conviction que l'intelligence artificielle ne doit pas être purement transactionnelle. Au lieu d'interagir avec un assistant générique, Airacter explore le dialogue à travers des personas, des identités et des tonalités singulières.",
+      "cta": "Visiter Airacter →",
+      "launchIndicator": "Lancement en novembre 2026",
+      "active_personas": "Personas Actifs",
+      "preview": "aperçu",
+      "bot_text": "Chaque conversation a son atmosphère. Comment devrions-nous échanger aujourd'hui ?",
+      "user_text": "Direct, réfléchi et tourné vers l'avenir.",
+      "text_box_placeholder": "Répondre à Airacter"
+    },
+    "relationship": {
+      "eyebrow": "VYRAXITY",
+      "heading": "Bâti par Vyraxity.",
+      "copy": "Airacter est le premier produit développé sous l'égide de Vyraxity. Il marque le début du voyage de Vyraxity vers la création d'une technologie d'envergure mondiale depuis l'Afrique. Airacter est le produit. Vyraxity est l'entreprise qui bâtit la suite."
+    }
+  },
+  "labsPage": {
+    "hero": {
+      "eyebrow": "VYRAXITY LABS",
+      "headline": "Nous ne savons pas ce que nous bâtirons ensuite. C'est précisément le but.",
+      "copy": "L'avenir arrive rarement sous la forme d'un produit fini. Il s'amorce par une expérimentation. Vyraxity Labs est notre sanctuaire de recherche, d'expérimentation, de prototypage et d'exploration technologique."
+    },
+    "whatHappensHere": {
+      "heading": "Que se passe-t-il ici ?",
+      "items": [
+        {
+          "title": "Recherche",
+          "description": "Nous explorons les technologies capables de révéler de nouveaux possibles."
+        },
+        {
+          "title": "Expérimentation",
+          "description": "Nous concevons des prototypes pour tester rapidement des hypothèses."
+        },
+        {
+          "title": "Open source",
+          "description": "Lorsque c'est pertinent, nous partageons nos outils et technologies avec la communauté de développeurs."
+        },
+        {
+          "title": "Découverte de produits",
+          "description": "Certaines expérimentations deviennent des produits. D'autres des infrastructures. D'autres encore nous apportent de précieux enseignements."
+        }
+      ]
+    },
+    "experimentExample": {
+      "title": "expérimentations en cours",
+      "system": "VYRAXITY LABS",
+      "id": "EXPÉRIENCE / 014",
+      "status": "SYSTÈME : ACTIF",
+      "description": "Exploration d'approches computationnelles de...",
+      "meta": {
+        "status": "PROTOTYPE",
+        "version": "0.3.2",
+        "updated": "03 SEPT 2026"
+      }
+    },
+    "closing": "Chaque expérimentation n'a pas vocation à devenir une entreprise. Mais chaque expérience peut nous éclairer sur ce qui mérite d'être bâti."
+  },
+  "vision": {
+    "hero": {
+      "headline": "L'Afrique ne doit pas seulement consommer l'avenir.",
+      "headlineTwo": "L'Afrique doit contribuer à le bâtir.",
+      "copy": "La technologie a transformé le monde, mais la répartition géographique de sa création n'a jamais été équilibrée. Vyraxity a la conviction que l'Afrique peut jouer un rôle bien plus déterminant — non pas simplement comme destination pour des produits conçus ailleurs, mais comme source de produits, d'entreprises, de propriété intellectuelle et d'idées qui influencent le monde entier. Telle est la perspective à laquelle nous voulons contribuer."
+    },
+    "ourAmbition": {
+      "heading": "De consommateur à créateur.",
+      "lines": [
+        "L'Afrique fait face à d'immenses défis technologiques.",
+        "Mais ces défis peuvent aussi susciter une innovation extraordinaire.",
+        "Une solution pensée pour opérer sous les contraintes africaines peut devenir précieuse partout ailleurs.",
+        "Un produit conçu pour les utilisateurs africains peut acquérir une pertinence planétaire.",
+        "Un ingénieur formé au Nigeria peut bâtir un logiciel utilisé par quelqu'un en Europe.",
+        "L'opportunité ne réside pas dans la copie de ce qui existe déjà.",
+        "L'opportunité réside dans la création de ce qui devrait exister."
+      ]
+    },
+    "nigeria": {
+      "title": "point de départ",
+      "heading": "Nous commençons au Nigeria.",
+      "copy": "Le Nigeria est notre point d'ancrage. Il abrite les femmes, les hommes, les défis, les opportunités et les talents qui façonnent le premier chapitre de Vyraxity. Mais la géographie ne saurait borner l'horizon de notre ambition."
+    },
+    "africa": {
+      "title": "l'écosystème",
+      "heading": "L'Afrique est au cœur de la mission.",
+      "copy": "Nous voulons que Vyraxity contribue à un écosystème où les talents africains créent des entreprises technologiques compétitives au niveau mondial. Cela passe par :",
+      "list": [
+        "Des produits",
+        "De la recherche",
+        "De l'ingénierie",
+        "De la propriété intellectuelle",
+        "Des emplois",
+        "Du savoir"
+      ]
+    },
+    "world": {
+      "title": "l'horizon",
+      "heading": "L'ambition est mondiale.",
+      "copy": "Nous ne cherchons pas à bâtir des produits qui réussissent simplement parce qu'ils sont africains. Nous voulons bâtir des produits qui triomphent parce qu'ils sont excellents.",
+      "closingLines": [
+        "L'Afrique est le lieu où nous bâtissons.",
+        "Le monde est l'arène où nous concourons."
+      ]
+    }
+  },
+  "about": {
+    "hero": {
+      "headline": "Nous bâtissons une entreprise technologique pour le long terme.",
+      "copy": "Vyraxity est une entreprise technologique fondée sur une conviction simple : l'Afrique peut concevoir de la technologie pour le monde entier. Nous créons une entreprise conçue pour développer des produits, explorer les technologies émergentes et transformer des idées audacieuses en réalités pérennes."
+    },
+    "ourStory": {
+      "heading": "Pourquoi Vyraxity existe",
+      "copy": "L'industrie technologique mondiale a engendré des entreprises et des technologies remarquables. L'Afrique en a largement profité. Mais nous croyons que le prochain chapitre doit voir davantage de technologies conçues ici, par des personnes d'ici, et exportées d'ici vers le reste du monde. Vyraxity est notre contribution à cet avenir.",
+      "closingLines": [
+        "Non par des slogans.",
+        "Par des produits."
+      ]
+    },
+    "whatWeAre": [
+      "Une entreprise technologique.",
+      "Le logiciel d'abord.",
+      "La technologie au-delà du logiciel dès que l'opportunité l'exige.",
+      "Africaine par ses origines.",
+      "Mondiale dans son ambition."
+    ],
+    "whatWeBelieve": {
+      "lines": [
+        "Le talent existe partout.",
+        "L'opportunité, non."
+      ],
+      "copy": "Nous voulons contribuer à démontrer ce qui devient possible lorsque les talents africains reçoivent l'opportunité de bâtir selon les standards mondiaux et avec une ambition planétaire."
+    },
+    "buildingToward": [
+      "Une entreprise capable de créer durablement de la valeur technologique.",
+      "Une entreprise dont les produits franchissent naturellement les frontières.",
+      "Une entreprise dont la propriété intellectuelle naît en Afrique et rayonne dans le monde.",
+      "Une entreprise capable de grandir bien au-delà de son premier produit."
+    ]
+  },
+  "careers": {
+    "hero": {
+      "headline": "Bâtissez l'avenir avec nous.",
+      "copy": "Nous recherchons des esprits suffisamment curieux pour explorer des problématiques complexes et assez ambitieux pour bâtir des solutions qui comptent. Vyraxity est façonnée en Afrique, avec des standards et une ambition mondiaux."
+    },
+    "whoWeWant": {
+      "roles": [
+        "Ingénieurs.",
+        "Designers.",
+        "Chercheurs.",
+        "Penseurs produit.",
+        "Bâtisseurs."
+      ],
+      "closingLine": "Des personnes qui regardent les problèmes difficiles et se disent : « Bâtissons quelque chose. »"
+    },
+    "workingHere": "Vous ne rejoindrez pas une entreprise où tout est déjà réglé. Vous rejoindrez une entreprise qui s'édifie jour après jour. Cela suppose plus d'incertitude. Mais cela offre aussi une formidable opportunité de façonner ce que Vyraxity deviendra.",
+    "openings": {
+      "empty": "Il n'y a actuellement aucun poste ouvert.",
+      "cta": "Voir les postes ouverts →"
+    }
+  },
+  "contact": {
+    "hero": {
+      "headline": "Bâtissons quelque chose de signifiant.",
+      "copy": "Que vous souhaitiez travailler avec nous, développer avec nous, vous associer, investir ou simplement entamer une conversation, nous serions ravis d'échanger avec vous.",
+      "email_label": "Envoyez-nous un courriel",
+      "email": "hello@vyraxity.com",
+      "copy_email": "Copier l'adresse",
+      "copied": "Copié"
+    },
+    "form": {
+      "name": "Nom",
+      "namePlaceholder": "Votre nom",
+      "email": "E-mail",
+      "emailPlaceholder": "vous@exemple.com",
+      "company": "Entreprise (optionnel)",
+      "companyPlaceholder": "Votre entreprise ou organisation",
+      "reason": "Objet de votre message",
+      "reasonPlaceholder": "Sélectionnez un motif",
+      "reasonOptions": [
+        "Partenariat",
+        "Carrières",
+        "Presse / Médias",
+        "Investissement",
+        "Demande générale"
+      ],
+      "message": "Message",
+      "messagePlaceholder": "Parlez-nous de vos projets ou de la façon dont nous pourrions collaborer...",
+      "submit": "Envoyer le message",
+      "submitting": "Envoi en cours...",
+      "successMessage": "Merci — nous avons bien reçu votre message et vous répondrons prochainement.",
+      "errorMessage": "Une erreur est survenue. Veuillez réessayer ou nous contacter directement par e-mail.",
+      "errors": {
+        "nameRequired": "Veuillez indiquer votre nom.",
+        "emailRequired": "Veuillez indiquer votre adresse e-mail.",
+        "emailInvalid": "Veuillez renseigner une adresse e-mail valide.",
+        "reasonRequired": "Veuillez sélectionner un motif.",
+        "messageRequired": "Veuillez rédiger un message.",
+        "messageTooShort": "Le message doit comporter au moins 10 caractères."
+      },
+      "reasons": {
+        "partnership": "Partenariat",
+        "careers": "Carrières",
+        "press": "Presse / Médias",
+        "investment": "Investissement",
+        "general_inquiry": "Demande générale"
+      }
+    },
+    "followTheJourney": {
+      "heading": "Suivre l'aventure",
+      "links": {
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "x": "X",
+        "instagram": "Instagram"
+      }
+    }
+  },
+  "meta": {
+    "home": {
+      "title": "Vyraxity — La technologie, bâtie depuis l'Afrique. Bâtie pour le monde.",
+      "description": "Vyraxity est une entreprise technologique qui conçoit des logiciels ambitieux et explore les technologies émergentes depuis l'Afrique pour le monde."
+    },
+    "products": {
+      "title": "Produits — Vyraxity",
+      "description": "Découvrez les produits technologiques développés par Vyraxity, à commencer par Airacter."
+    },
+    "airacter": {
+      "title": "Airacter — Un produit Vyraxity",
+      "description": "Airacter est une expérience d'IA incarnée conçue par Vyraxity. Lancement en novembre 2026."
+    },
+    "labs": {
+      "title": "Vyraxity Labs — Explorer ce qui vient ensuite",
+      "description": "Recherche, expérimentations et prototypes développés par Vyraxity."
+    },
+    "vision": {
+      "title": "Notre Vision — Vyraxity",
+      "description": "Nous croyons que l'Afrique ne doit pas seulement consommer la technologie, mais contribuer à façonner celle qui dessinera l'avenir."
+    },
+    "about": {
+      "title": "À propos de Vyraxity",
+      "description": "Découvrez Vyraxity, une entreprise technologique bâtissant des produits d'envergure mondiale depuis l'Afrique."
+    },
+    "careers": {
+      "title": "Carrières — Vyraxity",
+      "description": "Rejoignez Vyraxity et contribuez à bâtir une technologie d'envergure mondiale depuis l'Afrique."
+    },
+    "contact": {
+      "title": "Contactez Vyraxity",
+      "description": "Entrez en contact avec Vyraxity pour toute opportunité de partenariat, de produit ou de technologie."
+    }
+  }
+}
