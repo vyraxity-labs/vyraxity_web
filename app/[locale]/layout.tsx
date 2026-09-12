@@ -6,6 +6,7 @@ import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
 import { Nav } from '@/components/layout/Nav'
 import { Footer } from '@/components/layout/Footer'
+import { CustomCursor } from '@/components/ui/CustomCursor'
 import { getOrganizationStructuredData } from '@/lib/structuredData'
 import '@/app/globals.css'
 
@@ -66,8 +67,17 @@ export default async function LocaleLayout({
       </head>
       <body className='min-h-full flex flex-col font-sans'>
         <NextIntlClientProvider messages={messages}>
+          <a
+            href='#main-content'
+            className='sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-vx-amber focus:text-vx-black focus:font-mono focus:text-sm focus:font-medium focus:rounded-vx-sm focus:outline-none'
+          >
+            {locale === 'fr' ? 'Passer au contenu' : 'Skip to content'}
+          </a>
+          <CustomCursor />
           <Nav />
-          <main className="flex-1">{children}</main>
+          <main id='main-content' className='flex-1' tabIndex={-1}>
+            {children}
+          </main>
           <Footer />
         </NextIntlClientProvider>
       </body>

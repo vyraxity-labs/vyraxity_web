@@ -47,16 +47,31 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-}
-
 body {
   background-color: var(--vx-black);
   color: var(--vx-white);
   font-family: var(--font-geist-sans);
+}
+
+/* Accessible, on-brand focus rings across interactive elements */
+:focus-visible {
+  outline: 2px solid var(--vx-amber);
+  outline-offset: 2px;
+}
+
+/* Reduced motion preference global fallbacks */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 /* Typography scale utilities */

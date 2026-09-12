@@ -51,6 +51,7 @@ export function ExperimentCard({
         variants={cardVariants}
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
+        data-cursor="card"
         className="w-full rounded-vx-sm border border-vx-line/80 bg-vx-ink/60 p-6 sm:p-8 font-mono text-xs sm:text-sm text-vx-white/90 flex flex-col justify-between"
       >
         {/* Header Section */}
