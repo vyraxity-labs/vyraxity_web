@@ -36,6 +36,7 @@ export function AiracterCard() {
         variants={cardVariants}
         initial='hidden'
         animate={isInView ? 'visible' : 'hidden'}
+        data-cursor='card'
         className='relative w-full rounded-vx-lg border border-vx-line/80 bg-vx-ink/40 p-8 sm:p-12 md:p-16 overflow-hidden'
       >
         {/* Subtle Airacter violet-to-coral glow scoped to this component */}
