@@ -25,13 +25,16 @@ export function ContactForm() {
   const [submitStatus, setSubmitStatus] = useState<
     'idle' | 'success' | 'error'
   >('idle')
+  const [serverErrorMessage, setServerErrorMessage] = useState<string | null>(
+    null,
+  )
 
   const {
     register,
     handleSubmit,
     reset,
     formState: { errors, isSubmitting },
-  } = useForm<ContactFormData>({
+  } = useForm<ContactFormData & { hp_field?: string }>({
     resolver: zodResolver(contactFormSchema),
     defaultValues: {
       name: '',
@@ -39,15 +42,48 @@ export function ContactForm() {
       company: '',
       reason: undefined,
       message: '',
+      hp_field: '',
     },
   })
 
-  const onSubmit = async (data: ContactFormData) => {
-    // Step 10.2: Client-side validation only; logs payload to console.
-    // Backend API delivery is wired in Step 10.3.
-    console.log('Contact form submitted payload (client-validated):', data)
-    setSubmitStatus('success')
-    reset()
+  const onSubmit = async (data: ContactFormData & { hp_field?: string }) => {
+    setServerErrorMessage(null)
+    setSubmitStatus('idle')
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      })
+
+      const result = await res.json()
+
+      if (!res.ok) {
+        if (result.issues) {
+          const firstFieldKey = Object.keys(result.issues)[0]
+          const fieldErrors = result.issues[firstFieldKey]
+          setServerErrorMessage(
+            Array.isArray(fieldErrors) && fieldErrors.length > 0
+              ? `${firstFieldKey}: ${fieldErrors[0]}`
+              : t('errorMessage'),
+          )
+        } else {
+          setServerErrorMessage(result.error || t('errorMessage'))
+        }
+        setSubmitStatus('error')
+        return
+      }
+
+      setSubmitStatus('success')
+      reset()
+    } catch (err) {
+      console.error('Contact submission network error:', err)
+      setServerErrorMessage(t('errorMessage'))
+      setSubmitStatus('error')
+    }
   }
 
   const containerVariants = {
@@ -105,7 +141,7 @@ export function ContactForm() {
                 <div className='flex items-start gap-3'>
                   <span className='text-red-400 mt-0.5'>✕</span>
                   <p className='text-vx-white text-base leading-relaxed'>
-                    {t('errorMessage')}
+                    {serverErrorMessage || t('errorMessage')}
                   </p>
                 </div>
               </motion.div>
@@ -116,6 +152,31 @@ export function ContactForm() {
               noValidate
               className='w-full flex flex-col space-y-8'
             >
+              {/* Spam Honeypot Field (hidden from genuine users) */}
+              <div
+                aria-hidden='true'
+                style={{
+                  position: 'absolute',
+                  width: '1px',
+                  height: '1px',
+                  padding: 0,
+                  margin: '-1px',
+                  overflow: 'hidden',
+                  clip: 'rect(0, 0, 0, 0)',
+                  whiteSpace: 'nowrap',
+                  borderWidth: 0,
+                }}
+              >
+                <label htmlFor='hp_field'>Do not fill this field</label>
+                <input
+                  id='hp_field'
+                  type='text'
+                  tabIndex={-1}
+                  autoComplete='off'
+                  {...register('hp_field')}
+                />
+              </div>
+
               {/* Name field */}
               <motion.div
                 variants={itemVariants}
