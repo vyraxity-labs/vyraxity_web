@@ -5,6 +5,8 @@ import { useTranslations } from 'next-intl'
 import { Link, usePathname } from '@/i18n/navigation'
 import { motion, AnimatePresence } from 'motion/react'
 import { motionDurations, easeStandard, useReducedMotion } from '@/lib/motion'
+import { LanguageSwitcher } from './LanguageSwitcher'
+
 
 export interface MobileNavProps {
   isOpen: boolean
@@ -157,10 +159,10 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
               ))}
             </ul>
 
-            {/* Visually distinct Contact CTA at bottom */}
+            {/* Visually distinct Contact CTA + Language switcher at bottom */}
             <motion.div
               variants={itemVariants}
-              className='pt-8 border-t border-vx-line/50'
+              className='pt-8 border-t border-vx-line/50 flex items-center justify-between'
             >
               <Link
                 href='/contact'
@@ -169,6 +171,8 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
               >
                 [ {t('contact')} ]
               </Link>
+
+              <LanguageSwitcher />
             </motion.div>
           </motion.nav>
         </motion.div>
