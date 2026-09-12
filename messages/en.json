@@ -387,6 +387,15 @@
         "investment": "Investment",
         "general_inquiry": "General Inquiry"
       }
+    },
+    "followTheJourney": {
+      "heading": "Follow the journey",
+      "links": {
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "x": "X",
+        "instagram": "Instagram"
+      }
     }
   },
   "meta": {}
